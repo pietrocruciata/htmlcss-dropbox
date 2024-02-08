@@ -1,0 +1,67 @@
+
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul
+,ol
+menu{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+/*LAYOUT*/
+
+
+.d-flex{
+    display: flex;
+}
+
+.container-large{
+    width: 100%;
+   
+}
+ .jc-space-between{
+    justify-content: space-between;
+ }
+
+ .p-20{
+    padding: 20px;
+ }
+
+ .gap-30{
+    gap: 30px
+    ;
+ }
+
+ .btn-blue{
+    color: white;
+    background-color: blue;
+    padding: 4px 10px;
+ }
+ 
+ .f-size-l{
+    font-size: large;
+ }
+
+ /*COLORI E BG*/
+
+ .c-grey{
+    color: rgb(96, 94, 94);
+ }
