@@ -26,6 +26,24 @@ a{
     color: currentColor;
 }
 
+
+/*CONTAINERS*/
+
+.container-large{
+    width: 100%;
+}
+
+.container-medium{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container-small{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
 /*LAYOUT*/
 
 
@@ -33,14 +51,13 @@ a{
     display: flex;
 }
 
-.container-large{
-    width: 100%;
-   
-}
  .jc-space-between{
     justify-content: space-between;
  }
 
+ .jc-center{
+    justify-content: center;
+ }
  .p-20{
     padding: 20px;
  }
@@ -52,16 +69,51 @@ a{
 
  .btn-blue{
     color: white;
-    background-color: blue;
-    padding: 4px 10px;
+    background-color: rgb(0, 123, 255);
+    padding: 8px 10px;
  }
  
  .f-size-l{
     font-size: large;
  }
+.f-size-40{
+    font-size: 40px;
+}
+
+.pt-60{
+    padding-top: 60px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-auto{
+    margin-top: auto;
+}
+
+.col-1{
+    width: 30%;
+}
+
+.col-2{
+    width: 70%;
+}
+
+.w-190{
+    width: 190px;
+}
 
  /*COLORI E BG*/
 
  .c-grey{
     color: rgb(96, 94, 94);
+ }
+
+ .bg-lightblue{
+    background-color: lightblue;
  }
