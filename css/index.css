@@ -45,8 +45,41 @@ a{
 }
 
 /*LAYOUT*/
+.td-yes{
+    text-decoration: underline;
+    color: blue;
+}
 
+hr{
+    width: 50px;
+    color:  rgb(208, 208, 208);
+}
 
+.mb-45{
+    margin-bottom: 45px;
+}
+
+.space-font{
+    padding-right: 10px;
+}
+.d-inlineblock{
+    display: inline-block;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+.pt-30{
+    padding-top: 30px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+.bb-black{
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
 .d-flex{
     display: flex;
 }
@@ -62,6 +95,12 @@ a{
     padding: 20px;
  }
 
+ .p-10{
+    padding: 10px;
+ }
+.ta-center{
+    text-align: center;
+}
  .gap-30{
     gap: 30px
     ;
@@ -84,8 +123,8 @@ a{
     padding-top: 60px;
 }
 
-.mt-25{
-    margin-top: 25px;
+.mt-45{
+    margin-top: 45px;
 }
 
 .mt-60{
@@ -96,24 +135,34 @@ a{
     margin-top: auto;
 }
 
-.col-1{
-    width: 30%;
+.space-list{
+    padding: 20px 0;
 }
-
-.col-2{
-    width: 70%;
-}
-
-.w-190{
-    width: 190px;
-}
-
  /*COLORI E BG*/
 
  .c-grey{
-    color: rgb(96, 94, 94);
+    color: rgb(171, 166, 166);
  }
 
  .bg-lightblue{
     background-color: lightblue;
  }
+
+ .c-blue{
+    color: rgb(0, 123, 255);;
+ }
+
+ /*COLS*/
+
+ .col-a1{
+    width: 30%;
+}
+
+.col-a2{
+    width: 70%;
+}
+
+.col-b1{
+    width: calc(94% / 3);
+    border: 1px solid rgb(208, 208, 208);
+}
