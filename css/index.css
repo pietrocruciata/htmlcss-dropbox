@@ -1,27 +1,25 @@
-
 /*RESET*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul
-,ol
-menu{
+ul,
+ol menu {
     list-style: none;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-a{
+a {
     text-decoration: none;
     color: currentColor;
 }
@@ -29,140 +27,295 @@ a{
 
 /*CONTAINERS*/
 
-.container-large{
+.container-large {
     width: 100%;
 }
 
-.container-medium{
+.container-medium {
     width: 60%;
     margin: 0 auto;
 }
 
-.container-small{
+.container-small {
     width: 50%;
     margin: 0 auto;
 
 }
 
 /*LAYOUT*/
-.td-yes{
+.td-yes {
     text-decoration: underline;
     color: blue;
 }
 
-hr{
-    width: 50px;
-    color:  rgb(208, 208, 208);
+.f-size {
+    font-size: 30px;
 }
 
-.mb-45{
+hr {
+    width: 50px;
+    color: rgb(208, 208, 208);
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mb-45 {
     margin-bottom: 45px;
 }
 
-.space-font{
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.space-font {
     padding-right: 10px;
 }
-.d-inlineblock{
+
+.d-inlineblock {
     display: inline-block;
 }
 
-.pl-50{
+.pl-50 {
     padding-left: 50px;
 }
 
-.pt-30{
+.pt-30 {
     padding-top: 30px;
 }
 
-.pt-10{
+.pt-10 {
     padding-top: 10px;
 }
-.bb-black{
+
+.bb-black {
     border-bottom: 1px solid rgb(208, 208, 208);
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
 
- .jc-space-between{
+.jc-space-between {
     justify-content: space-between;
- }
+}
 
- .jc-center{
+.jc-center {
     justify-content: center;
- }
- .p-20{
-    padding: 20px;
- }
+}
 
- .p-10{
+.p-20 {
+    padding: 20px;
+}
+
+.p-10 {
     padding: 10px;
- }
-.ta-center{
+}
+
+.ta-center {
     text-align: center;
 }
- .gap-30{
-    gap: 30px
-    ;
- }
 
- .btn-blue{
+.gap-30 {
+    gap: 30px;
+}
+
+.mx-h-40 {
+    max-height: 40px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.btn-blue {
     color: white;
     background-color: rgb(0, 123, 255);
     padding: 8px 10px;
- }
- 
- .f-size-l{
+}
+
+.f-size-l {
     font-size: large;
- }
-.f-size-40{
+}
+
+.f-size-40 {
     font-size: 40px;
 }
 
-.pt-60{
+.pt-60 {
     padding-top: 60px;
 }
 
-.mt-45{
+.mt-45 {
     margin-top: 45px;
 }
 
-.mt-60{
+.p-40 {
+    padding: 40px;
+}
+
+.mt-60 {
     margin-top: 60px;
 }
 
-.mt-auto{
+.mt-auto {
     margin-top: auto;
 }
 
-.space-list{
+.space-list {
     padding: 20px 0;
 }
- /*COLORI E BG*/
 
- .c-grey{
+.btn-white {
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.p-70 {
+    padding: 70px;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.mx-h-240{
+    max-height: 240px;
+}
+
+.jc-space-around{
+    justify-content: space-around;
+}
+
+.p-90{
+    padding: 90px;
+}
+
+.pq-40{
+    padding: 40px 0px;
+}
+
+.bb-grey{
+    border-bottom: grey;
+}
+.h-220{
+    height: 220px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+/*COLORI E BG*/
+
+.c-grey {
     color: rgb(171, 166, 166);
- }
+}
 
- .bg-lightblue{
+.bg-lightblue {
     background-color: lightblue;
- }
+}
 
- .c-blue{
-    color: rgb(0, 123, 255);;
- }
+.c-blue {
+    color: rgb(0, 123, 255);
+    ;
+}
 
- /*COLS*/
+.bg-lightgreen {
+    background-color: lightgreen;
+}
 
- .col-a1{
+.bg-bordeaux {
+    background-color: brown;
+}
+
+.c-white {
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-lightgrey {
+    background-color: rgb(241, 241, 241);
+}
+.bg-lightsky{
+    background-color: rgb(232, 249, 255);
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-black{
+    background-color: black;
+}
+/*COLS*/
+
+.col-a1 {
     width: 30%;
 }
 
-.col-a2{
+.col-a2 {
     width: 70%;
 }
 
-.col-b1{
-    width: calc(94% / 3);
+
+
+.col-b1 {
+    width: calc((100% / 3) - 11px);
     border: 1px solid rgb(208, 208, 208);
+}
+
+.col-b2 {
+    border: 1px solid rgb(208, 208, 208);
+    width: 100%;
+}
+
+.col-b3 {
+    width: 30%;
+}
+
+.col-c1 {
+    width: 60%;
+}
+
+.col-c2 {
+    width: 40%;
+}
+
+.col-d1 {
+    width: calc(100% / 3);
+}
+
+.col-e1 {
+    width: calc(100% / 3);
+}
+
+.col-e2 {
+    width: calc(100% / 3);
+}
+
+.col-e3 {
+    width: calc(100% / 3);
 }
