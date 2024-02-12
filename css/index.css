@@ -78,8 +78,8 @@ hr {
     display: inline-block;
 }
 
-.pl-50 {
-    padding-left: 50px;
+.pl-30 {
+    padding-left: 30px;
 }
 
 .pt-30 {
@@ -94,10 +94,20 @@ hr {
     border-bottom: 1px solid rgb(208, 208, 208);
 }
 
+.bt-black {
+    border-top: 1px solid rgb(208, 208, 208);
+}
 .d-flex {
     display: flex;
 }
 
+.ai-center{
+    align-items: center;
+}
+
+.js-flexend{
+    justify-content: flex-end;
+}
 .jc-space-between {
     justify-content: space-between;
 }
